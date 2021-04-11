@@ -19,7 +19,7 @@ To access this project on your local files, you can clone it using these steps
 1. CSS
 1. JavaScript
 1. Git
-###Contact
+### Contact
 saragathoni888@gmail.com
 ### Live Site
 View [live](https://Serahwakaba.github.io/Ghanian-day-names.git)
