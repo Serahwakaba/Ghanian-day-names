@@ -7,5 +7,7 @@ function calculations(){
   year = document.getElementById("year").value;
   CC = parseInt(year.substring(0,2));
   YY = parseInt(year.substring(2,4));
+  MM = parseInt(document.getElementById("month").value);
+  DD = parseInt(document.getElementById("date").value);
 }
  
