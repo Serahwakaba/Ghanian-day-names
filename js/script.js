@@ -76,3 +76,7 @@ switch(gender){
             
     }
   }
+  function getAkan(){
+    dayValue = calculations();
+    getGender();
+  }
