@@ -15,8 +15,14 @@ function calculations(){
 }
 
 function getGender(){
-    var genders = document.getElementsByName("gender");
-    if(genders[0].checked == true){
+    var g = document.getElementsByName("gender");
+    if(g[0].checked == true){
       var gender = "male";
     }
+    else if(g[1].checked == true){
+        var gender = "female";
+      }
+      else{
+        return false;
+      }
 }  
