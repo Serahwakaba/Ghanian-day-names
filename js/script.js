@@ -25,4 +25,9 @@ function getGender(){
       else{
         return false;
       }
-}  
+switch(gender){
+    case "male":
+      if (dayValue == 1){
+        alert("You were born on " +dayNames[0] + " and Your akan name is " +maleNames[0]+"!");
+      }
+}
