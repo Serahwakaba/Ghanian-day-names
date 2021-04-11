@@ -3,14 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="/images/akantitle.ico" />
   <title>Akan Names</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Quattrocento,Playfair+Display+SC,Sorts+Mill+Goudy &display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Gugi|Kalam" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js"></script>
+
 </head>
 <body>
     <div class="container" style="background-color:aqua">
@@ -24,21 +21,21 @@
             <h2>Wanna Know Your Akan Name??????</h2>
             <h3>This Will Be Fun!!!!!!</h3>
             <br><br><br>
-            <div class="overlay" style="text-align:center">
+            <div class="jumbotron" style="text-align:center">
                 <h5>Entre Your Details Here!!!</h5>
                 <div class="container">
                 <form name="myForm" class="form" onsubmit="validate();">
                     <div class="form-group">
                       <label for="number">Year of Birth:</label>
-                      <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+                      <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year">
                     </div>
                     <div class="form-group">
                       <label for="month">Month of Birth:</label>
-                      <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                      <input type="number" class="form-control" id="month" placeholder="Month of Birth i.e should be a number" name="month">
                     </div>
                     <div class="form-group">
                         <label for="date">Date of Birth:</label>
-                        <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+                        <input type="number" class="form-control" id="date" placeholder="Date of Birth s" name="date">
                       </div>
                       <div class="form-group">
                         <label for="month">Gender</label><br>
@@ -53,10 +50,9 @@
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-primary" onclick="findName();">Akan Name</button>
+                      <button type="submit" class="btn btn-primary" onclick="getAkan();">Akan Name</button>
                       <br>
                     </form>
-                    <p id="results"> </p>
                   </div>
  </div>
 </body>
